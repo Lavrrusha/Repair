@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap');
+
+
+html {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+html *,
+html *::before,
+html *::after {
+   box-sizing: inherit;
+}
+
+img {
+   max-width: 100%;
+}
+
+input,
+textarea,
+a,
+button {
+   font-family: inherit;
+   font-size: inherit;
+   line-height: inherit;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.visually-hidden:not(:focus),
+input[type=checkbox].visually-hidden,
+input[type=radio].visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  border: 0;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+}
+
+
+.button  {
+  display: block;
+  text-align: center;
+   width: 400px;
+   background-color: #FA8315;
+   cursor: pointer;
+   border-radius: 65px;
+   color: #fff;
+   padding: 23px 44px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 1;
+   max-width: max-content;
+}
+
+.button--mod {
+  background-color: #000;
+  border-radius: 50px;
+  padding: 16px 35px;
+}
+
+.button:hover {
+   background-color: #FFB876;
+}
+
+.button:focus {
+   background-color: #FF993A;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header {}
+
+.header__logotype {}
+
+.header__label {}
+
+.header__phone {}
+
+.navigation {}
+
+.navigation__list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.navigation__link {}
+
+.main {}
+
+.first-screen {}
+
+.first-screen span {
+   color: #2052C9;
+}
+
+.first-screen__list {
+   color: blue;
+}
+
+.first-screen__item {}
+
+
+.services {}
+
+.services span {
+   font-weight: 400;
+}
+
+.brands-logo {}
+
+.brands-logo__list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.brands-logo__item {}
+
+.brands-logo__icon {}
+
+.services__description {}
+
+.services__text {}
+
+.services__left {}
+
+.services__list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.services__item {}
+
+.services__title {}
+
+.services__price {}
+
+.services__icon {}
+
+.services__center {}
+
+.services__logo {}
+
+.services__right {}
+
+.prices {}
+
+
+.custom-form {}
+
+
+.features {}
+
+.features span {
+   font-weight: 400;
+}
+
+.features__list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.features__item {}
+
+.features__title {}
+
+.features__text {}
+
+.contacts {}
+
+.contacts__list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.contacts__item {}
+
+.contacts__label {}
+
+.map {}
+
+.footer {}
+
+.footer__logotype {}
+
+.footer__caption {}
+
+.footer__title {}
+
+.footer__text {}
+
+.social-list {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.footer__social-item {}
+
+.footer__social-link {}
+
+.footer__copyright {}
+
+.dialog-modal {}
+
+.vissually-hidden {
+
+}
