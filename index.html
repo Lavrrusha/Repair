@@ -54,29 +54,49 @@
       <a href="#" class="button button--mod">Заказать обратный звонок</a>
     </div>
 
-    <nav class="navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">Услуги</a>
-        </li>
+    <section class="custom-form">
+      <h3 class="title">Заказать обратный звонок</h3>
+      <p class="custom-form__text">Оставьте ваши контактные данные и наш специалист свжется с вами для консультации</p>
+      <form action="#" method="post" class="custom-form__feedback">
+        <ul class="custom-form__list">
+          <li class="custom-form__item"><input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required></li>
+          <li class="custom-form__item"><input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required></li>
+          <li class="custom-form__item"><button type="button">Оставить заявку</button>
+          </li>
+          <li class="custom-form__item custom-form__assent">Нажимая на кнопку, вы соглашаетесь на обработку
+            персональных данных</li>
+        </ul>
+      </form>
+      <button type="button">
+        <img class="close" src="./img/form/close.svg" alt="закрыть" width="17" loading="lazy">
+      </button>
+    </section>
 
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">Цены</a>
-        </li>
+    <div class="header__bottom">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Услуги</a>
+          </li>
 
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">Преимущества</a>
-        </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Цены</a>
+          </li>
 
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">Примеры работ</a>
-        </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Преимущества</a>
+          </li>
 
-        <li class="navigation__item">
-          <a class="navigation__link" href="#">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Примеры работ</a>
+          </li>
+
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
 
   </header>
 
@@ -232,11 +252,215 @@
 
     <section class="prices">
       <h2 class="title">Доступные цены <span>на качественный ремонт смартфонов</span></h2>
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-1.jpg" alt="1">
+        <h3 class="prices__title">Замена разъема или кнопки</h3>
+        <table class="prices__table">
+          <tbody>
+            <tr class="prices__column">
+              <td class="prices__cell-left">замена кнопки home</td>
+              <td class="prices__cell-right">700 ₽</td>
+            </tr>
+
+            <tr class="prices__column">
+              <td class="prices__cell-left">замена кнопки включения</td>
+              <td class="prices__cell-right">500 ₽</td>
+            </tr>
+
+            <tr class="prices__column">
+              <td class="prices__cell-left">замена разъема наушников</td>
+              <td class="prices__cell-right">800 ₽</td>
+            </tr>
+
+            <tr class="prices__column">
+              <td class="prices__cell-left">замена вибромотора</td>
+              <td class="prices__cell-right">от 500 ₽</td>
+            </tr>
+
+            <tr class="prices__column">
+              <td class="prices__cell-left">замена датчика приближения</td>
+              <td class="prices__cell-right">от 1000 ₽</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </article>
+
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-2.jpg" alt="2">
+        <h3 class="prices__title">Программный ремонт и загрузки</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">разблокировка от пароля</td>
+            <td class="prices__cell-right">350 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">создание аккаунта</td>
+            <td class="prices__cell-right">1000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">загрузка приложений</td>
+            <td class="prices__cell-right">700 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">нет сети или не видит сим-карту</td>
+            <td class="prices__cell-right">700-1500 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">восстановление прошивки</td>
+            <td class="prices__cell-right">5000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">не работает wi-fi</td>
+            <td class="prices__cell-right">1500 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-3.jpg" alt="3">
+        <h3 class="prices__title">Корпус и стекло</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена корпуса</td>
+            <td class="prices__cell-right">1000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена стекла</td>
+            <td class="prices__cell-right">700 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена дисплейной сборки</td>
+            <td class="prices__cell-right">от 1500 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-4.jpg" alt="4">
+        <h3 class="prices__title">Аккумулятор</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена батареи</td>
+            <td class="prices__cell-right">от 1000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена разъёма зарядки</td>
+            <td class="prices__cell-right">от 800 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена контроллера заряда</td>
+            <td class="prices__cell-right">от 1000 ₽</td>
+          </tr>
+
+        </table>
+      </article>
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-5.jpg" alt="5">
+        <h3 class="prices__title">Микрофон и динамики</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена микрофона</td>
+            <td class="prices__cell-right">1000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">устранение хрипа динамика</td>
+            <td class="prices__cell-right">700 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">восстановление неработающего динамика</td>
+            <td class="prices__cell-right">700 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена динамика</td>
+            <td class="prices__cell-right">1000 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-6.jpg" alt="6">
+        <h3 class="prices__title">Камера</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена основной камеры</td>
+            <td class="prices__cell-right">700 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена фронтальной камеры</td>
+            <td class="prices__cell-right">700 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-7.jpg" alt="7">
+        <h3 class="prices__title">Прочие поломки и сбои</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена дазней панели</td>
+            <td class="prices__cell-right">600 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">ремонт после попадания воды</td>
+            <td class="prices__cell-right">от 1000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">загрузка/ремонт платы</td>
+            <td class="prices__cell-right">1000 ₽</td>
+          </tr>
+
+          <tr class="prices__column">
+            <td class="prices__cell-left">замена динамика</td>
+            <td class="prices__cell-right">1000 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="prices__list">
+        <img class="prices__image" src="./img/prices/photo-8.jpg" alt="8">
+        <h3 class="prices__title">Диагностика вашего устройства</h3>
+        <table class="prices__table">
+          <tr class="prices__column">
+            <td class="prices__cell-left">выполнение диагностики</td>
+            <td class="prices__cell-right">бесплатно</td>
+          </tr>
+        </table>
+      </article>
     </section>
 
-    <section class="custom-form">
-      <h2 class="title">Скидка 20% на работы по ремонту телефона</h2>
+    <section class="custom-form custom-form--two">
+      <h2 class="title">Скидка 20% <span>на работы по ремонту телефона</span></h2>
+      <p class="custom-form__text">Скидка действует только при заявке с сайта</p>
+      <form action="#" method="post" class="custom-form__feedback">
+        <ul class="custom-form__list">
+          <li class="custom-form__item"><input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required></li>
+          <li class="custom-form__item"><input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required></li>
+          <li class="custom-form__item"><button type="button" class="button">Получить скидку</button>
+          </li>
+          <li class="custom-form__item custom-form__assent">Нажимая на кнопку, вы соглашаетесь на обработку
+            персональных данных</li>
+        </ul>
+      </form>
     </section>
+
 
     <section class="features">
       <h2 class="title">8 объективных причин,<span> чтобы отремонтировать телефон у нас</span></h2>
@@ -296,8 +520,9 @@
         </li>
       </ul>
 
-      <div class="custom-form custom-form--two">
-        <h2 class="title">Нужен ремонт телефона? </h2>
+      <div class="dialog-modal">
+        <h2 class="title">Нужен ремонт телефона?</h2>
+        <a href="#" class="button">Жми сюда</a>
       </div>
 
     </section>
@@ -333,7 +558,7 @@
       </ul>
 
       <div class="map">
-        <img src="./img/map.jpg" alt="">
+        <img src="./img/map.jpg" alt="карта">
       </div>
     </section>
   </main>
@@ -436,11 +661,6 @@
       копирование материалов сайта, без указания источника, запрещена согласно 4ч, раздел 7 Гражданского
       Кодекса РФ.</p>
   </footer>
-
-
-  <div class="dialog-modal">
-    <h2 class="title">Заказать обратный звонок</h2>
-  </div>
 
 </body>
 
