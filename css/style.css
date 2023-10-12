@@ -161,20 +161,16 @@ input[type=radio].visually-hidden {
   padding: 15px 0 20px;
 }
 
-.header__bottom {
-  padding: 15px 40px 15px;
-  margin-bottom: 60px;
-  background: var(--black, #121212);
-}
-
-
 .header__logotype {}
 
 .header__label {}
 
 .header__phone {}
 
-.navigation {}
+.navigation {
+  margin-bottom: 60px;
+  background: var(--black, #121212);
+}
 
 .navigation__list {
   margin: 0;
@@ -197,7 +193,6 @@ input[type=radio].visually-hidden {
   background: linear-gradient(77deg, #06090E 52.7%, #162836 72.15%, #2C3B44 83.31%);
   color: #fff;
   padding: 60px 0 100px;
-  margin-bottom: 80px;
 }
 
 .first-screen .title {
@@ -256,7 +251,7 @@ input[type=radio].visually-hidden {
 
 .services__left {}
 
-.services__logo-list {
+.logo-list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -285,6 +280,22 @@ input[type=radio].visually-hidden {
   padding: 65px 0 30px;
 }
 
+.prices__list {
+}
+.prices__image {
+}
+.prices__title {
+}
+.prices__table {
+}
+.prices__column {
+}
+.prices__cell-left {
+}
+.prices__cell-right {
+  color: var(--blue, #2052C9);
+}
+
 .custom-form {}
 
 
@@ -306,22 +317,26 @@ input[type=radio].visually-hidden {
   list-style: none;
 }
 
-.features__item {
-
-}
+.features__item {}
 
 .features__title {}
 
 .features__text {}
 
+.action {
+  border-radius: 20px;
+  background: #FFF;
+  padding: 40px 65px;
+}
+
 .custom-form--three {
-  padding: 60px 0 100px;
+
 }
 
 .contacts {}
 
 .contacts .title {
-  padding: 80px 0 40px;
+
 }
 
 .contacts__list {
@@ -338,7 +353,6 @@ input[type=radio].visually-hidden {
 
 .footer {
   background: var(--black, #121212);
-  padding: 50px 0 43px;
 }
 
 .footer__logotype {}
@@ -380,57 +394,8 @@ input[type=radio].visually-hidden {
   color: #BABABA;
 }
 
-
-
 .vissually-hidden {}
 
-.custom-form {}
-
-.custom-form {
-  padding: 55px 65px 80px 67px;
-}
-
-.custom-form--two {
-  color: #fff;
-  background: var(--black, #121212);
-  padding: 80px 0 125px;
-}
-
-.custom-form--two .title {
-  color: inherit;
-}
-
-.custom-form--two .title span {
-  font-weight: 400;
-}
-
-.custom-form__text {}
-
-.custom-form {
-  border-radius: 65px;
-  border: 1px solid #FFF;
-}
-
-.custom-form__input {
-  border-radius: 65px;
-  border: 1px solid #898989;
-  padding: 23px 35px;
-}
-
-.custom-form--two .custom-form__input {
-  background: var(--black, #121212);
-}
-
-.custom-form__list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.custom-form__item {
-  padding: 10px;
-}
-
-.custom-form__assent {
-  color: #7E7E7E;
+.modal {
+  padding: 55px 65px 80px 65px;
 }

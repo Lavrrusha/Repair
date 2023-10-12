@@ -7,7 +7,9 @@
 - visually-hidden
 - доступность
 
-[Ссылка для просмотра вёрстки](https://lavrrusha.github.io/Repair/)
+[Ссылка для просмотра вёрстки]
+
+https://lavrrusha.github.io/Repair/
 
 ## Домашка
 
