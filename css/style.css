@@ -168,8 +168,9 @@ input[type=radio].visually-hidden {
 .header__phone {}
 
 .navigation {
-  margin-bottom: 60px;
   background: var(--black, #121212);
+  padding-top: 17px;
+  padding-bottom: 10px;
 }
 
 .navigation__list {
@@ -187,12 +188,15 @@ input[type=radio].visually-hidden {
   text-transform: uppercase;
 }
 
-.main {}
+.main {
+
+}
 
 .first-screen {
   background: linear-gradient(77deg, #06090E 52.7%, #162836 72.15%, #2C3B44 83.31%);
   color: #fff;
-  padding: 60px 0 100px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
 .first-screen .title {
@@ -218,7 +222,7 @@ input[type=radio].visually-hidden {
 
 
 .services {
-  margin-bottom: 80px;
+  padding: 80px 0;
 }
 
 .services span {
@@ -273,39 +277,46 @@ input[type=radio].visually-hidden {
 
 .prices {
   background-color: #F5F5F5;
-  margin-bottom: 100px;
+  padding-top: 65px;
+  padding-bottom: 100px;
 }
 
 .prices .title {
   padding: 65px 0 30px;
 }
 
-.prices__list {
-}
-.prices__image {
-}
-.prices__title {
-}
-.prices__table {
-}
-.prices__column {
-}
-.prices__cell-left {
-}
-.prices__cell-right {
-  color: var(--blue, #2052C9);
+
+.custom-form {
+
 }
 
-.custom-form {}
+.price-card {
+}
 
+.price-card__image {
+}
+
+.price-card__title {
+}
+
+.price-card__table {
+}
+
+.price-card__column {
+}
+
+.price-card__cell-left {
+}
+
+.price-card__cell-right {
+}
 
 .features {
   background-color: #F5F5F5;
+  padding-top: 82px;
+  padding-bottom: 100px;
 }
 
-.features .title {
-  padding: 80px 0 50px;
-}
 
 .features span {
   font-weight: 400;
@@ -323,17 +334,16 @@ input[type=radio].visually-hidden {
 
 .features__text {}
 
-.action {
+.call-to-action {
   border-radius: 20px;
   background: #FFF;
   padding: 40px 65px;
 }
 
-.custom-form--three {
-
+.contacts {
+  padding-top: 80px;
+  padding-bottom: 50px;
 }
-
-.contacts {}
 
 .contacts .title {
 
@@ -353,6 +363,8 @@ input[type=radio].visually-hidden {
 
 .footer {
   background: var(--black, #121212);
+  padding-top: 50px;
+  padding-bottom: 43px;
 }
 
 .footer__logotype {}
@@ -398,4 +410,15 @@ input[type=radio].visually-hidden {
 
 .modal {
   padding: 55px 65px 80px 65px;
+}
+
+.modal--two {
+  padding-top: 80px;
+  padding-bottom: 125px;
+  background: var(--black, #121212);
+  color: #FFF;
+}
+
+.modal--two .title {
+  color: inherit;
 }

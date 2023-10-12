@@ -17,8 +17,8 @@
 
   <header class="header">
     <div class="header__top">
-      <a href="#" class="header__logotype">
-        <svg width="160" height="35" viewBox="0 0 160 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <a href="#" class="logotype">
+        <svg class="logotype__image" width="160" height="35" viewBox="0 0 160 35" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M0 7.47283H17.3257V8.83152L16.5566 9.60598H2.69871V19.7011H14.0536V21.8342H2.69871V32.4796H17.3257V34.6467H0V7.47283Z"
             fill="white" />
@@ -49,7 +49,7 @@
         </svg>
       </a>
 
-      <span class="header__label">Сервисный центр по ремонту мобильной техники в Краснодаре</span>
+      <span class="logotype__text">Сервисный центр по ремонту мобильной техники в Краснодаре</span>
       <svg width="9" height="18" viewBox="0 0 9 18" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M3.6074 16.5068C1.59322 14.4874 0.46369 11.75 0.466521 8.89498C0.469353 6.03995 1.60431 3.30033 3.62251 1.27691C4.22637 0.673049 5.0449 0.333329 5.89804 0.332483C6.75117 0.331637 7.56903 0.669733 8.1717 1.2724C8.30029 1.39904 8.41609 1.53805 8.51742 1.68741C8.62063 1.82656 8.70992 1.97553 8.78399 2.13218C8.83661 2.24184 8.85966 2.36339 8.85086 2.48481C8.84207 2.60623 8.80174 2.72332 8.73386 2.82449L6.44082 6.47106C6.37845 6.56991 6.29234 6.65162 6.19037 6.70873C6.08839 6.76584 5.97378 6.79653 5.85701 6.79799C5.7235 6.80307 5.71361 6.80308 4.78922 6.51226C4.20624 8.06838 4.20104 9.78101 4.77455 11.3384C5.7094 11.0457 5.71929 11.0457 5.85279 11.0505C5.96956 11.0517 6.08411 11.0822 6.18597 11.1391C6.28784 11.196 6.37378 11.2775 6.43595 11.3763L8.72177 15.0183C8.78444 15.1189 8.82044 15.2339 8.82638 15.3524C8.83232 15.4709 8.808 15.5891 8.75571 15.6957C8.67992 15.8549 8.59042 16.0072 8.48824 16.1509C8.38372 16.2952 8.26784 16.4309 8.1417 16.5567C7.53132 17.1489 6.71193 17.476 5.86241 17.4666C5.01289 17.4573 4.20223 17.1122 3.6074 16.5068Z"
@@ -238,34 +238,34 @@
     <section class="prices">
       <h2 class="title">Доступные цены <span>на качественный ремонт смартфонов</span></h2>
       <p class="text">Телефон прослужит долго и еще успеет вам надоесть!</p>
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-1.jpg" alt="1">
-        <h3 class="prices__title">Замена разъема или кнопки</h3>
-        <table class="prices__table">
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-1.jpg" alt="1">
+        <h3 class="price-card__title">Замена разъема или кнопки</h3>
+        <table class="price-card__table">
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена кнопки home</td>
-            <td class="prices__cell-right">700 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена кнопки home</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена кнопки включения</td>
-            <td class="prices__cell-right">500 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена кнопки включения</td>
+            <td class="price-card__cell-right">500 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена разъема наушников</td>
-            <td class="prices__cell-right">800 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена разъема наушников</td>
+            <td class="price-card__cell-right">800 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена вибромотора</td>
-            <td class="prices__cell-right">от 500 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена вибромотора</td>
+            <td class="price-card__cell-right">от 500 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена датчика приближения</td>
-            <td class="prices__cell-right">от 1000 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена датчика приближения</td>
+            <td class="price-card__cell-right">от 1000 ₽</td>
           </tr>
 
         </table>
@@ -273,179 +273,174 @@
       </article>
 
 
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-2.jpg" alt="2">
-        <h3 class="prices__title">Программный ремонт и загрузки</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Разблокировка от пароля</td>
-            <td class="prices__cell-right">350 ₽</td>
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-2.jpg" alt="2">
+        <h3 class="price-card__title">Программный ремонт и загрузки</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Разблокировка от пароля</td>
+            <td class="price-card__cell-right">350 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Создание аккаунта</td>
-            <td class="prices__cell-right">1000 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Создание аккаунта</td>
+            <td class="price-card__cell-right">1000 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Загрузка приложений</td>
-            <td class="prices__cell-right">700 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Загрузка приложений</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Нет сети или не видит сим-карту</td>
-            <td class="prices__cell-right">700-1500 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Нет сети или не видит сим-карту</td>
+            <td class="price-card__cell-right">700-1500 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Восстановление прошивки</td>
-            <td class="prices__cell-right">5000 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Восстановление прошивки</td>
+            <td class="price-card__cell-right">5000 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Не работает wi-fi</td>
-            <td class="prices__cell-right">1500 ₽</td>
-          </tr>
-        </table>
-      </article>
-
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-3.jpg" alt="3">
-        <h3 class="prices__title">Корпус и стекло</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена корпуса</td>
-            <td class="prices__cell-right">1000 ₽</td>
-          </tr>
-
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена стекла</td>
-            <td class="prices__cell-right">700 ₽</td>
-          </tr>
-
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена дисплейной сборки</td>
-            <td class="prices__cell-right">от 1500 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Не работает wi-fi</td>
+            <td class="price-card__cell-right">1500 ₽</td>
           </tr>
         </table>
       </article>
 
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-4.jpg" alt="4">
-        <h3 class="prices__title">Аккумулятор</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена батареи</td>
-            <td class="prices__cell-right">от 1000 ₽</td>
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-3.jpg" alt="3">
+        <h3 class="price-card__title">Корпус и стекло</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена корпуса</td>
+            <td class="price-card__cell-right">1000 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена разъёма зарядки</td>
-            <td class="prices__cell-right">от 800 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена стекла</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена контроллера заряда</td>
-            <td class="prices__cell-right">от 1000 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена дисплейной сборки</td>
+            <td class="price-card__cell-right">от 1500 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-4.jpg" alt="4">
+        <h3 class="price-card__title">Аккумулятор</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена батареи</td>
+            <td class="price-card__cell-right">от 1000 ₽</td>
+          </tr>
+
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена разъёма зарядки</td>
+            <td class="price-card__cell-right">от 800 ₽</td>
+          </tr>
+
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена контроллера заряда</td>
+            <td class="price-card__cell-right">от 1000 ₽</td>
           </tr>
 
         </table>
       </article>
 
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-5.jpg" alt="5">
-        <h3 class="prices__title">Микрофон и динамики</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена микрофона</td>
-            <td class="prices__cell-right">1000 ₽</td>
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-5.jpg" alt="5">
+        <h3 class="price-card__title">Микрофон и динамики</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена микрофона</td>
+            <td class="price-card__cell-right">1000 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Устранение хрипа динамика</td>
-            <td class="prices__cell-right">700 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Устранение хрипа динамика</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Восстановление неработающего динамика</td>
-            <td class="prices__cell-right">700 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Восстановление неработающего динамика</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена динамика</td>
-            <td class="prices__cell-right">1000 ₽</td>
-          </tr>
-        </table>
-      </article>
-
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-6.jpg" alt="6">
-        <h3 class="prices__title">Камера</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена основной камеры</td>
-            <td class="prices__cell-right">700 ₽</td>
-          </tr>
-
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена фронтальной камеры</td>
-            <td class="prices__cell-right">700 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена динамика</td>
+            <td class="price-card__cell-right">1000 ₽</td>
           </tr>
         </table>
       </article>
 
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-7.jpg" alt="7">
-        <h3 class="prices__title">Прочие поломки и сбои</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена дазней панели</td>
-            <td class="prices__cell-right">600 ₽</td>
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-6.jpg" alt="6">
+        <h3 class="price-card__title">Камера</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена основной камеры</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
 
-          <tr class="prices__column">
-            <td class="prices__cell-left">Ремонт после попадания воды</td>
-            <td class="prices__cell-right">от 1000 ₽</td>
-          </tr>
-
-          <tr class="prices__column">
-            <td class="prices__cell-left">Загрузка/ремонт платы</td>
-            <td class="prices__cell-right">1000 ₽</td>
-          </tr>
-
-          <tr class="prices__column">
-            <td class="prices__cell-left">Замена динамика</td>
-            <td class="prices__cell-right">1000 ₽</td>
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена фронтальной камеры</td>
+            <td class="price-card__cell-right">700 ₽</td>
           </tr>
         </table>
       </article>
 
-      <article class="prices__list">
-        <img class="prices__image" src="./img/prices/photo-8.jpg" alt="8">
-        <h3 class="prices__title">Диагностика вашего устройства</h3>
-        <table class="prices__table">
-          <tr class="prices__column">
-            <td class="prices__cell-left">Выполнение диагностики</td>
-            <td class="prices__cell-right">Бесплатно</td>
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-7.jpg" alt="7">
+        <h3 class="price-card__title">Прочие поломки и сбои</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена дазней панели</td>
+            <td class="price-card__cell-right">600 ₽</td>
+          </tr>
+
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Ремонт после попадания воды</td>
+            <td class="price-card__cell-right">от 1000 ₽</td>
+          </tr>
+
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Загрузка/ремонт платы</td>
+            <td class="price-card__cell-right">1000 ₽</td>
+          </tr>
+
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Замена динамика</td>
+            <td class="price-card__cell-right">1000 ₽</td>
+          </tr>
+        </table>
+      </article>
+
+      <article class="price-card">
+        <img class="price-card__image" src="./img/prices/photo-8.jpg" alt="8">
+        <h3 class="price-card__title">Диагностика вашего устройства</h3>
+        <table class="price-card__table">
+          <tr class="price-card__column">
+            <td class="price-card__cell-left">Выполнение диагностики</td>
+            <td class="price-card__cell-right">Бесплатно</td>
           </tr>
         </table>
       </article>
     </section>
 
-    <section class="custom-form custom-form--two">
+    <section class="modal modal--two">
       <h2 class="title">Скидка 20% <span>на работы по ремонту телефона</span></h2>
       <p class="text">Скидка действует только при заявке с сайта</p>
-      <form action="#" method="post" class="custom-form__feedback">
-        <ul class="custom-form__list">
-          <li class="custom-form__item"><input class="custom-form__input" type="text" name="name" placeholder="Ваше имя"
-              required></li>
-          <li class="custom-form__item"><input class="custom-form__input" type="tel" name="phone"
-              placeholder="Ваш номер телефона" required></li>
-          <li class="custom-form__item"><button type="button" class="button">Получить скидку</button>
-          </li>
-          <li class="custom-form__item custom-form__assent">Нажимая на кнопку, вы соглашаетесь на обработку
-            персональных данных</li>
-        </ul>
+      <form action="#" method="post" class="custom-form">
+        <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
+        <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
+        <button type="button" class="button">Получить скидку</button>
+        <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
+          персональных данных</span>
       </form>
     </section>
 
@@ -455,7 +450,7 @@
 
       <ul class="features__list">
         <li class="features__item">
-          <img src="../Repair/img/features/1.svg" alt="icon-1" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/1.svg" alt="icon-1" width="70" loading="lazy">
           <h3 class="features__title">Точно определяем неисправность</h3>
           <p class="features__text">Программная и аппаратная диагностика. Аттестованные специалисты, опыт
             5-8 лет. На 100%
@@ -463,7 +458,7 @@
             в этом</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/2.svg" alt="2" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/2.svg" alt="2" width="70" loading="lazy">
           <h3 class="features__title">
             Без навязывания запчастей
           </h3>
@@ -472,43 +467,43 @@
             ненужных запчастей!</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/3.svg" alt="3" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/3.svg" alt="3" width="70" loading="lazy">
           <h3 class="features__title">Без подоражания</h3>
           <p class="features__text">Стоимость ремонта вы знаете заранее. Согласованная сумма совпадает
             с финальной! Если что-то не учли – делаем за свой счет, а не за счет клиента</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/4.svg" alt="4" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/4.svg" alt="4" width="70" loading="lazy">
           <h3 class="features__title">Проверенные запчасти</h3>
           <p class="features__text">Предъявим упаковку товара, покажем маркировку на самой запчасти. Хотите
             удешевить ремонт? Качественные фабричные копии проверенных поставщиков тоже в наличии</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/5.svg" alt="5" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/5.svg" alt="5" width="70" loading="lazy">
           <h3 class="features__title">Получаете больше, чем ожидали</h3>
           <p class="features__text">Искренне любим свою работу. Часто бесплатно выполняем дополнительную сопутствующую
             работу. Ставим стекло &mdash; можем подпаять зарядку, почистить от загрязнений</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/6.svg" alt="6" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/6.svg" alt="6" width="70" loading="lazy">
           <h3 class="features__title">Порядок в сервисном центре</h3>
           <p class="features__text">Это значит, что ваш телефон не потеряют, случайно не перепутают запчасти,
             как бывает у тех, кто не следит за порядком</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/7.svg" alt="7" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/7.svg" alt="7" width="70" loading="lazy">
           <h3 class="features__title">Гарантия до 12 месяцев</h3>
           <p class="features__text">Официальная письменная гарантия до 12 месяцев</p>
         </li>
         <li class="features__item">
-          <img src="../img/features/8.svg" alt="8" width="70" loading="lazy">
+          <img class="features__icon" src="../img/features/8.svg" alt="8" width="70" loading="lazy">
           <h3 class="features__title">Быстрый ремонт - от 20 минут</h3>
           <p class="features__text">Большинство поломок устраняем прямо на ваших глазах. Например, на замену
             стекла на iPhone уйдет менее 20 минут</p>
         </li>
       </ul>
 
-      <div class="action">
+      <div class="call-to-action">
         <h2 class="title">Нужен ремонт телефона?</h2>
         <a href="#" class="button">Жми сюда</a>
       </div>
@@ -553,8 +548,8 @@
 
   <footer class="footer">
 
-    <a href="#" class="footer__logotype">
-      <svg width="160" height="35" viewBox="0 0 160 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a href="#" class="logotype">
+      <svg class="logotype__image" width="160" height="35" viewBox="0 0 160 35" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           d="M0 7.47314H17.3257V8.83184L16.5566 9.6063H2.69871V19.7014H14.0536V21.8346H2.69871V32.4799H17.3257V34.6471H0V7.47314Z"
           fill="white" />
@@ -584,7 +579,7 @@
         <path d="M101.917 3.82471H97.1875V5.80161H101.917V3.82471Z" fill="white" />
       </svg>
     </a>
-    <span class="footer__caption">Сервисный центр по ремонту мобильной техники в Краснодаре</span>
+    <span class="logotype__text">Сервисный центр по ремонту мобильной техники в Краснодаре</span>
 
     <h3 class="footer__title">Что чиним</h3>
     <p class="footer__text">Осуществляем ремонт мобильной техники.
