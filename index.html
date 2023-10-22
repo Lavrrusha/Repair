@@ -413,15 +413,23 @@
     </section>
 
     <section class="modal modal--two" id="anchor-modal">
-      <h2 class="title">Скидка 20% <span>на работы по ремонту телефона</span></h2>
-      <p class="text">Скидка действует только при заявке с сайта</p>
-      <form action="#" method="post" class="custom-form">
-        <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
-        <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
-        <button type="button" class="button">Получить скидку</button>
-        <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
-          персональных данных</span>
-      </form>
+      <div class="wrapper">
+        <div class="modal--two__flex">
+      <div class="modal__left">
+        <h2 class="title">Скидка 20% <span>на работы по ремонту телефона</span></h2>
+        <p class="text">Скидка действует только при заявке с сайта</p>
+      </div>
+      <div class="modal__right">
+        <form action="#" method="post" class="custom-form">
+          <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
+          <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
+          <button type="button" class="button">Получить скидку</button>
+          <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
+            персональных данных</span>
+        </form>
+      </div>
+    </div>
+  </div>
     </section>
 
     <section class="features" id="anchor-features">
@@ -488,8 +496,10 @@
 
     <section class="call-to-action">
       <div class="wrapper">
-        <h2 class="title">Нужен ремонт телефона?</h2>
-        <a href="#" class="button">Жми сюда</a>
+        <div class="call-to-action__flex">
+          <h2 class="title">Нужен ремонт телефона?</h2>
+          <a href="#" class="button">Жми сюда</a>
+        </div>
       </div>
     </section>
 
