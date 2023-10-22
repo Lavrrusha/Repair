@@ -407,8 +407,7 @@ input[type=radio].visually-hidden {
 }
 
 .features__title {
-  margin: 0;
-  padding: 0;
+  padding-bottom: 2px;
   text-align: center;
   color: #121212;
   font-size: 18px;
@@ -423,6 +422,8 @@ input[type=radio].visually-hidden {
 }
 
 .features__text {
+  margin: 0;
+  padding: 0;
   font-size: 12px;
   line-height: 20px;
   text-align: center;
@@ -452,8 +453,7 @@ input[type=radio].visually-hidden {
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 100%;
-  gap: 0 40px;
+  gap: 40px;
   text-align: center;
 }
 
@@ -508,7 +508,7 @@ input[type=radio].visually-hidden {
 .map {}
 
 .footer {
-  background: var(--black, #121212);
+  background: #000;
   padding-top: 50px;
   padding-bottom: 43px;
   display: flex;
@@ -517,13 +517,14 @@ input[type=radio].visually-hidden {
 }
 
 .footer__col {
-  display: flex;
+  display: grid;
+  gap: 50px 30px;
+  grid-template-columns: 4fr 5fr 3fr;
 }
 
 .footer__left {
   display: flex;
   flex-direction: column;
-  margin-right: 130px;
 }
 
 .footer__logotype {
@@ -568,15 +569,14 @@ input[type=radio].visually-hidden {
 .footer__center {
   display: flex;
   flex-direction: column;
-  width: 315px;
-  margin-right: 150px;
 }
 
 .footer__center .footer__text {
   color: #FFF;
   font-size: 14px;
   font-weight: 400;
-  line-height: 22px
+  line-height: 22px;
+  max-width: 315px;
 }
 
 .footer__right {
@@ -599,6 +599,8 @@ input[type=radio].visually-hidden {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 li .social-list__item {
@@ -609,16 +611,22 @@ li .social-list__item {
 .social-list__link {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 14px solid #121212;
+  background: #121212;
 }
 
 .footer__copyright {
+  margin: 0;
   color: #BABABA;
-  padding-top: 100px;
-  margin-bottom: 45px;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
-  width: 710px;
+  grid-column: 1/4;
+  max-width: 700px;
 }
 
 .vissually-hidden {}
