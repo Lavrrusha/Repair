@@ -414,22 +414,22 @@
 
     <section class="modal modal--two" id="anchor-modal">
       <div class="wrapper">
-        <div class="modal--two__flex">
-      <div class="modal__left">
-        <h2 class="title">Скидка 20% <span>на работы по ремонту телефона</span></h2>
-        <p class="text">Скидка действует только при заявке с сайта</p>
+        <div class="modal__flex">
+          <div class="modal__left">
+            <h2 class="title">Скидка 20% <span>на работы по ремонту телефона</span></h2>
+            <p class="text">Скидка действует только при заявке с сайта</p>
+          </div>
+          <div class="modal__right">
+            <form action="#" method="post" class="custom-form">
+              <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
+              <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
+              <button type="button" class="button">Получить скидку</button>
+              <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
+                персональных данных</span>
+            </form>
+          </div>
+        </div>
       </div>
-      <div class="modal__right">
-        <form action="#" method="post" class="custom-form">
-          <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
-          <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
-          <button type="button" class="button">Получить скидку</button>
-          <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
-            персональных данных</span>
-        </form>
-      </div>
-    </div>
-  </div>
     </section>
 
     <section class="features" id="anchor-features">
@@ -602,19 +602,22 @@
     </div>
   </footer>
 
-  <div class="modal">
-    <h3 class="title">Заказать обратный звонок</h3>
-    <p class="text">Оставьте ваши контактные данные и наш специалист свжется с вами для консультации</p>
-    <form action="#" method="post" class="custom-form">
-      <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
-      <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
-      <button class="custom-form__button" type="submit">Оставить заявку</button>
-      <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
-        персональных данных</span>
-    </form>
-    <button class="close" type="button">
-      <img src="./img/form/close.svg" alt="close" width="17" loading="lazy">
-    </button>
+  <div class="wrapper">
+    <div class="modal">
+      <h3 class="title">Заказать обратный звонок</h3>
+      <p class="text">Оставьте ваши контактные данные и наш специалист свжется с вами для консультации</p>
+      <form action="#" method="post" class="custom-form">
+        <input class="custom-form__input" type="text" name="name" placeholder="Ваше имя" required>
+        <input class="custom-form__input" type="tel" name="phone" placeholder="Ваш номер телефона" required>
+        <button class="button" type="submit">Оставить заявку</button>
+        <span class="custom-form__text">Нажимая на кнопку, вы соглашаетесь на обработку
+          персональных данных</span>
+      </form>
+      <button class="close" type="button">
+        <img src="./img/form/close.svg" alt="close" width="17" loading="lazy">
+      </button>
+    </div>
+
   </div>
 
 </body>

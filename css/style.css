@@ -85,6 +85,7 @@ button {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  border: none;
 }
 
 a {
@@ -671,7 +672,7 @@ li .social-list__item {
   color: #FFF;
 }
 
-.modal--two__flex {
+.modal--two {
   display: flex;
   gap: 100px;
 }
@@ -702,7 +703,14 @@ li .social-list__item {
   width: 268px;
 }
 
+.modal__flex {
+  display: flex;
+  gap: 100px;
+  align-items: center
+}
+
 .custom-form__input {
+  margin: 0;
   border-radius: 65px;
   border: 1px solid #FFF;
   display: flex;
@@ -713,6 +721,7 @@ li .social-list__item {
   gap: 10px;
   background: #121212;
   color: #fff;
+  color: initial;
 }
 
 .custom-form__text {
